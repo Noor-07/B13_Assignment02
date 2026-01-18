@@ -68,3 +68,16 @@ nav {
 .my-btn:hover {
   transform: translateY(5px);
 }
+.banner-section {
+  background-image: url("./assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-image {
+  max-width: 400px;
+}
