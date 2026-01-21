@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-header {
+.container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 30px;
@@ -89,6 +89,7 @@ nav {
   text-align: center;
   background-size: cover;
   background-position: center;
+  margin-top: 120px;
 }
 .footer-part img {
   /* text-align: center; */
@@ -118,4 +119,56 @@ nav {
   font-size: 16px;
   font-weight: 400;
   margin-top: 35px;
+}
+/* Meet the host */
+.meet-the-host {
+  /* padding: 40px; */
+}
+.host-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  background: rgba(53, 17, 101, 0.4);
+  border-radius: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+.meet-the-host .host-title h2 {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.host-info-title h3 {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.host-info-title p {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+
+  font-size: 16px;
+  font-weight: 400;
+}
+.social-icons {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid rgba(83, 60, 114, 1);
 }
