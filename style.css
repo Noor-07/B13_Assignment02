@@ -70,6 +70,8 @@ nav {
 }
 .banner-section {
   background-image: url("./assets/hero-bg.png");
+  width: 100%;
+  height: 760px;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -79,5 +81,41 @@ nav {
 }
 
 .center-image {
+  position: relative;
+}
+.footer-part {
+  background-image: url(./assets/footer-bg.png);
+  padding: 120px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+.footer-part img {
+  /* text-align: center; */
+  justify-content: center;
   max-width: 400px;
+}
+.footer-icon ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 35px;
+}
+.footer-icon ul li {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.copyright-text {
+  color: rgba(250, 250, 250, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 35px;
 }
