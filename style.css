@@ -170,10 +170,11 @@ nav {
   padding: 10px;
   border: 1px solid rgba(83, 60, 114, 1);
 }
+
 /* Feature Episode Section */
 .episodes-section {
-  background: #1a0b2e;
-  padding: 60px 20px;
+  /* background: #1a0b2e; */
+  padding: 120px 20px;
   text-align: center;
 }
 
@@ -242,4 +243,51 @@ nav {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+/* About The podcast */
+.about-the-podcast {
+  background-color: #190b2f;
+}
+.podcast-stat {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.podcast-stat p {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 120px;
+}
+.podcast-description h2 {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 48px;
+  font-weight: 700;
+}
+.about-the-podcast {
+  padding: 100px;
+}
+
+.podcast-description p {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.podcast-description .another-class {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
 }
